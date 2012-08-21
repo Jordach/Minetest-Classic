@@ -1,7 +1,12 @@
-Minetest-c55
+Minetest-Classic
 ---------------
+
+All additions (C) Jordan "Jordach" Snelling <jordach.snelling@gmail.com>
+
+---------------
+
 An InfiniMiner/Minecraft inspired game.
-Copyright (c) 2010-2011 Perttu Ahola <celeron55@gmail.com>
+Copyright (c) 2010-2012 Perttu Ahola <celeron55@gmail.com>
 (see source files for other contributors)
 
 Further documentation:
