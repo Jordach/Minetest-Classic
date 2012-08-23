@@ -35,7 +35,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 // This disables unit testing of socket and connection.
 #define INTERNET_SIMULATOR 0
 
-#define CONNECTION_TIMEOUT 30
+#define CONNECTION_TIMEOUT 60
 
 #define RESEND_TIMEOUT_MIN 0.333
 #define RESEND_TIMEOUT_MAX 3.0
@@ -55,7 +55,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 // Size of node in rendering units
 #define BS 10
 
-#define MAP_BLOCKSIZE 16
+#define MAP_BLOCKSIZE 32
 /*
 	This makes mesh updates too slow, as many meshes are updated during
 	the main loop (related to TempMods and day/night)
@@ -74,9 +74,9 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 // is very low
 #define BLOCK_SEND_DISABLE_LIMITS_MAX_D 1
 
-#define PLAYER_INVENTORY_SIZE (8*4)
+#define PLAYER_INVENTORY_SIZE (8*6)
 
-#define SIGN_TEXT_MAX_LENGTH 50
+#define SIGN_TEXT_MAX_LENGTH 100
 
 // Whether to catch all std::exceptions.
 // Assert will be called on such an event.
